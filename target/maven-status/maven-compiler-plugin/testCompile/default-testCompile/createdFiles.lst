@@ -7,4 +7,5 @@ com\carfax\utils\CommonMethods.class
 com\carfax\testbase\BaseClass.class
 com\carfax\utils\ConfigReader.class
 com\carfax\testbase\PageInitializer.class
+com\neotech\runners\TestRunner.class
 com\carfax\utils\Constants.class

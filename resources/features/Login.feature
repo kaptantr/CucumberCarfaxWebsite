@@ -1,7 +1,8 @@
 @Login
 Feature: Login Functionality
 
-	Background: I navigated to the Login Page  
+	Background: 
+		Given I navigated to the Login Page  
 	
 	@smoke @regression
   Scenario: Valid Login
@@ -33,7 +34,7 @@ Feature: Login Functionality
     
   @smoke @regression
   Scenario: Invalid Login with Empty Username and Empty Password
-    When I enter a invalid username
-    And I enter a invalid password
+    When I enter an empty username
+    And I enter an empty password
     And I click on the login button
-    Then I validate that I am not logged in
+    Then I validate that I am not logged in with the empty datas

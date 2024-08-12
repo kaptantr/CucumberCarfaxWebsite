@@ -1,7 +1,6 @@
 package com.carfax.testbase;
 
-import com.carfax.pages.DashboardPageElements;
-import com.carfax.pages.LoginPageElements;
+import com.carfax.pages.*;
 
 public class PageInitializer extends BaseClass {
 	public static LoginPageElements login;
