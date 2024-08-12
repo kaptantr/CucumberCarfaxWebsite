@@ -6,10 +6,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.carfax</groupId>
-	<artifactId>CucumberWebSite</artifactId>
+	<artifactId>CucumberCarfaxWebSite</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>CucumberWebSite</name>
+	<name>CucumberCarfaxWebSite</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.carfax.com</url>
 
